@@ -76,3 +76,6 @@ Nesta página, há um arquivo HTML para demonstrar os elementos aos quais  esses
 | Seletor de Descendente  | Selecionaum elemento que é descendente de outro elemento especificado (e não apenas filho direto desse elemento)       | p  a {} Seleciona quaisquer elementos ```<a>``` que residem dentro de um elemento ```<p>```, mesmo se houver outros elementos aninhados entre eles.         |
 | Seletor de irmão adjacente  | Seleciona um elemento que é o irmão próximo do outro       | h1+p {} Seleciona o primeiro elemento ```<p>``` depois de qualquer elemento ```<h1>``` (mas não de outros elementos ```<p>```)         |
 | Seletor de irmão geral  | Seleciona um elemento que é um irmão de outro, embora ele não precise ser o elemento diretamente precedente       | h1~p     {} Se houvesse dois elementos ```<p>``` que fossem irmãos de um elemento ```<h1>```, essa regra se aplicaria aos dois.     |
+
+## Citações (_Quotes_)
+### Conteúdo extraido do livro de JON DUCKETT | Livro HTMS & CSS projete e construa websites
