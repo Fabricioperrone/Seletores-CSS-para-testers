@@ -78,4 +78,5 @@ Nesta página, há um arquivo HTML para demonstrar os elementos aos quais  esses
 | Seletor de irmão geral  | Seleciona um elemento que é um irmão de outro, embora ele não precise ser o elemento diretamente precedente       | h1~p     {} Se houvesse dois elementos ```<p>``` que fossem irmãos de um elemento ```<h1>```, essa regra se aplicaria aos dois.     |
 
 ## Citações (_Quotes_)
-### Conteúdo extraido do livro de JON DUCKETT | Livro HTMS & CSS projete e construa websites
+### 
+> Conteúdo extraido do livro de JON DUCKETT | Livro HTMS & CSS projete e construa websites
