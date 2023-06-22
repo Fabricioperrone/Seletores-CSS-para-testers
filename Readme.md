@@ -2,7 +2,7 @@
 
 Há muitos tipos diferentes de seletor CSS que permitem apontar regras para elementos específicos em um documento HTML. 
 
-Abaixo segue um exemplo os seletores CSS mais usados.
+Nesta página, de exemplo abaixo, temos um  HTML para demonstrar os elementos aos quais esses seletores CSS seriam usados.
  ```
 <!DOCTYPE html>
 <html>
@@ -69,7 +69,7 @@ Nesta página, há um arquivo HTML para demonstrar os elementos aos quais  esses
 | SELETOR    | SIGNIFICADO | EXEMPLO  |
 | ------ | ----------- | --------- |
 | Seletor Universal  | Aplica-se em todos os elementos no documento        | * {}  seleciona todos elementos da página     |
-| Seletor de texto  | Seleciona elemento pelo tipo       | h1. h2. h3 Seleciona os elementos ```<h1>``` ```<h2>``` e ```<h3>```         |
+| Seletor de texto  | Seleciona elemento pelo tipo       | h1, h2, h3 Seleciona os elementos ```<h1>```, ```<h2>``` e ```<h3>```         |
 | Seletor de classe  | Seleciona um elemento cujo  atributo class tem o valor especificado depois do ponto      | .note {} Seleciona qualquer elemento cujo o atributo class tem o valor  note p.note {} Seleciona somente elementos <p> cujo atributo class tem o valor note.         |
 | Seletor de ID  | Seleciona um elemento cujo atributo id tem o valor especificado após o símbolo de cerquilha ou jogo-da-velha       | #introduction {} Seleciona o elemento cujo atributo id tem o valor introduction         |
 | Seletor de filho  | Seleciona um elemento que é filho direto de outro       | li>a {} Seleciona quaisquer elementos ```<a>```{} Seleciona quaisquer elementos ```<a>``` que são filhos de um elemento ```<li>``` (mas não outros elementos ```<a>``` na página)         |
