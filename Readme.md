@@ -80,3 +80,16 @@ Nesta página, há um arquivo HTML para demonstrar os elementos aos quais  esses
 ## Citações (_Quotes_)
 ### 
 > Conteúdo extraido do livro de JON DUCKETT | Livro HTMS & CSS projete e construa websites
+
+## Seletores de atributo
+Vimos os seletores CSS mais populares, também há um conjunto de seletores de atributo que permitem criar regras que se aplicam a elementos que têm um atributo com um valor específico.
+
+### Segue tabela:
+| SELETOR     | SIGNIFICADO | EXEMPLO  |
+| ------ | ----------- | --------- |
+|Existência  | {} Seleciona um atributo específico (seja qual for o valor)        | p[class] Seleciona qualquer elemento ```<p>``` com um atributo chamado class.       |
+| Igualdade  | [=] Seleciona um aributo específico com um valor específico       | p[class="dog"] Seleciona qualquer elemento ```<p>``` com um atributo chamado class cujo valor é dog.         |
+| Espaço  | [~=] Seleciona um atributo específico cujo valor aparece em uma lista  seperada de palavras por um espaço.        | p[class~="dog"] Seleciona qualquer elemento ```<p>``` com um atributo class cujo valor é uma lista de palavras seperadas por um espaço, uma das quais é dog.       |
+| Prefixo  | [^=] Seleciona um atributo cujo valor começa com um string específica       | p[attr^"d"] Seleciona qualquer elemnento ```<p>``` com um atributo cujo valor começa com a letra "d".         |
+|SubString  | [*=] Seleciona um atributo específico cujo valor contém uma substring específica        | p[attr*"do"] Seleciona qualquer elemento ```<p>``` com um atributo cujo valor contém as letras "do".       |
+| Sufixo  | [$=] Seleciona um atributo específico cujo valor termina com uma string específica       | p[attr$"g"] Seleciona qualquer elemento ```<p>``` com um atributo cujo valor termina com a letra "g".         |
