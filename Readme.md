@@ -62,7 +62,6 @@ Nesta página, de exemplo abaixo, temos um  HTML para demonstrar os elementos ao
 </body>
 </html>
 ```
-Nesta página, há um arquivo HTML para demonstrar os elementos aos quais  esses seletores CSS seriam aplicados.
 
 ## Seletores
 
